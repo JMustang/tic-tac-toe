@@ -1,10 +1,10 @@
-import "./App.css";
+import Sobre from "./object/sobre";
 
 function App() {
   return (
-    <a href="#" className="sobre">
-      Sobre
-    </a>
+    <>
+      <Sobre />
+    </>
   );
 }
 
