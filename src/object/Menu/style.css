@@ -1,0 +1,27 @@
+.menu {
+  display: block;
+  text-indent: -9999px;
+}
+
+.menu::after,
+.menu::before,
+.menu > .center {
+  content: "";
+  display: block;
+  /* background-color: var(--color-fourth); */
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(213, 29, 253, 1) 50%,
+    rgba(252, 127, 69, 1) 95%
+  );
+  height: 4px;
+  width: 100%;
+  border-radius: 2px;
+}
+
+.menu::before,
+.menu > .center {
+  margin-bottom: 5px;
+}
