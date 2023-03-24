@@ -1,13 +1,9 @@
-import Logo from "./object/Logo";
-import Sobre from "./object/Sobre";
-import Menu from "./object/Menu";
+import Header from "./components/header";
 
 function App() {
   return (
     <>
-      <Logo />
-      <Sobre />
-      <Menu />
+      <Header />
     </>
   );
 }
