@@ -1,8 +1,10 @@
-import Sobre from "./object/sobre";
+import Logo from "./object/Logo";
+import Sobre from "./object/Sobre";
 
 function App() {
   return (
     <>
+      <Logo />
       <Sobre />
     </>
   );
