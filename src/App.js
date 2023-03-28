@@ -1,15 +1,11 @@
 import Header from "./components/header";
-import Card from "./object/Card";
-import Player from "./object/Player";
+import Hashtag from "./components/Hashtag";
 
 function App() {
   return (
     <>
       <Header />
-      <Card>
-        <Player player="o" />
-        <Player player="x" />
-      </Card>
+      <Hashtag />
     </>
   );
 }
