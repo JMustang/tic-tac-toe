@@ -1,1 +1,11 @@
 @import-normalize;
+
+body {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+}
