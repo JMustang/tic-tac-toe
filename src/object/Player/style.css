@@ -1,0 +1,9 @@
+.player {
+  background: none;
+  border: none;
+}
+
+.player > .playerX {
+  widows: 45px;
+  height: 45px;
+}
