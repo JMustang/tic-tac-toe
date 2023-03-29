@@ -1,13 +1,12 @@
+import "./App.css";
 import Header from "./components/header";
 import Hashtag from "./components/Hashtag";
 
-function App() {
-  return (
-    <>
-      <Header />
-      <Hashtag />
-    </>
-  );
-}
+const App = () => (
+  <main className="app">
+    <Header />
+    <Hashtag />
+  </main>
+);
 
 export default App;
